@@ -9,7 +9,7 @@ function Navigation() {
 			<Container>
 				<LinkContainer to="/">
 					<Navbar.Brand>
-						<img src={Logo} style={{ width: 50, height: 50 }} alt="Logos" />
+						<img src={Logo} style={{ width: 50, height: 50 }} alt="Logo" />
 					</Navbar.Brand>
 				</LinkContainer>
 				<Navbar.Toggle aria-controls="basic-navbar-nav" />
