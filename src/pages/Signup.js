@@ -88,6 +88,7 @@ function Signup() {
 						<Form.Group className="mb-3" controlId="formBasicEmail">
 							<Form.Label>Email почта</Form.Label>
 							<Form.Control
+								required
 								type="email"
 								placeholder="Введите email"
 								value={email}
@@ -98,6 +99,7 @@ function Signup() {
 						<Form.Group className="mb-3" controlId="formBasicPassword">
 							<Form.Label>Пароль</Form.Label>
 							<Form.Control
+								required
 								type="password"
 								placeholder="Пароль"
 								value={password}
